@@ -1,11 +1,21 @@
+import { Link } from "react-router-dom";
+
 export default function HomePage() {
   return (
     <div>
       <h1>Assassin</h1>
 
-      <button>Login</button>
+      <div>
+        <Link to="/login">
+            <button>Login</button>
+        </Link>
+      </div>
 
-      <button>Register</button>
+      <div>
+        <Link to="/register">
+            <button>Register</button>
+        </Link>
+      </div>
     </div>
   );
 }
