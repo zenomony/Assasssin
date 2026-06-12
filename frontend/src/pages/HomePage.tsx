@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
+import Layout from "../components/Layout";
 
 export default function HomePage() {
   return (
-    <div>
-      <h1>Assassin</h1>
-
+    <Layout>
       <div>
         <Link to="/login">
             <button>Login</button>
@@ -16,6 +15,6 @@ export default function HomePage() {
             <button>Register</button>
         </Link>
       </div>
-    </div>
+    </Layout>
   );
 }

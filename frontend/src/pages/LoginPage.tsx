@@ -1,7 +1,9 @@
+import Layout from "../components/Layout";
+
 export default function LoginPage(){
     return(
-        <div>
+        <Layout>
             <h1>Login</h1>
-        </div>
+        </Layout>
     );
 }
