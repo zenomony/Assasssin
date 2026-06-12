@@ -10,11 +10,15 @@ export default function RegisterPage(){
     function handleSubmit(event: FormEvent) {
         event.preventDefault();
 
-        console.log({
+        console.log("Creating Account");
+
+        const user={
             username,
             email,
             password,
-        });
+        };
+
+        console.log(user);
     }
 
     return(
